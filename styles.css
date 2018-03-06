@@ -43,6 +43,7 @@ h4{
 }
 .byline{
   margin-bottom: 0px;
+  display: inline;
 }
 .publish-time{
   margin-top: 0px;
