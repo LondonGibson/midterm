@@ -47,3 +47,6 @@ h4{
 .story-text{
   font-family: serif;
 }
+ol{
+  margin-top: 0px;
+}
