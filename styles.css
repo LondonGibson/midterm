@@ -7,4 +7,13 @@ body{
   background-color: #FFCCCC;
   padding: 10px;
   border: 10px double #FFFFFF;
+  overflow: auto;
+}
+.articles{
+  width: 50%;
+  float: left;
+}
+.books{
+  width: 50%;
+  float: left;
 }
