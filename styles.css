@@ -52,6 +52,7 @@ h4{
 .publish-time{
   margin-top: 10px;
   display: inline;
+  border-left: 1px solid #000000;
 }
 .byline-bit{
   border-bottom: 1px solid #000000;
