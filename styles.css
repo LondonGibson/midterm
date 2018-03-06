@@ -19,6 +19,7 @@ img{
   width: 80%;
   display: block;
   margin: auto;
+  margin-bottom: 10px;
 }
 @media(min-width: 650px) {
   .articles{
