@@ -51,5 +51,6 @@ ol{
   margin-top: 0px;
 }
 ul{
+  list-style-type: none;
   margin-top: 0px;
 }
