@@ -16,6 +16,7 @@ body{
 img{
   max-width: 100%;
   border: 5px solid #FFFFFF;
+  width: 80%;
 }
 @media(min-width: 650px) {
   .articles{
