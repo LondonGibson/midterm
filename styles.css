@@ -51,6 +51,9 @@ h4{
   margin-top: 10px;
   display: inline;
 }
+.byline-bit{
+  border-bottom: 1px solid #000000;
+}
 .story-text{
   font-family: serif;
 }
