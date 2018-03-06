@@ -12,6 +12,9 @@ body{
   border: 10px double #FFFFFF;
   overflow: auto;
 }
+img{
+  max-width: 100%;
+}
 @media(min-width: 650px) {
   .articles{
     width: 50%;
