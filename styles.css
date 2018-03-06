@@ -34,6 +34,7 @@ img{
   }
   .content{
     width: 80%;
+    margin: auto;
   }
 }
 h1{
