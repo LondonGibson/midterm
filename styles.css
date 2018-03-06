@@ -1,6 +1,9 @@
 body{
   background-color: #800000;
 }
+*{
+  box-sizing: border-box;
+}
 .container{
   max-width: 600px;
   margin: 0 auto;
@@ -12,8 +15,10 @@ body{
 .articles{
   width: 50%;
   float: left;
+  padding-right: 5px;
 }
 .books{
   width: 50%;
   float: left;
+  padding-left: 5px;
 }
