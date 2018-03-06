@@ -42,11 +42,12 @@ h4{
   margin: 0px;
 }
 .byline{
+  margin-top: 10px;
   margin-bottom: 0px;
   display: inline;
 }
 .publish-time{
-  margin-top: 0px;
+  margin-top: 10px;
   display: inline;
 }
 .story-text{
