@@ -48,6 +48,7 @@ h4{
   font-family: serif;
 }
 ol{
+  list-style-position: inside;
   margin-top: 0px;
 }
 ul{
