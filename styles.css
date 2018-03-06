@@ -12,13 +12,15 @@ body{
   border: 10px double #FFFFFF;
   overflow: auto;
 }
-.articles{
-  width: 50%;
-  float: left;
-  padding-right: 5px;
-}
-.books{
-  width: 50%;
-  float: left;
-  padding-left: 5px;
+@media(min-width: 650px) {
+  .articles{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+  }
+  .books{
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+  }
 }
