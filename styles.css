@@ -39,6 +39,7 @@ h1{
 }
 h2{
   margin-top: 0px;
+  border-bottom: 1px solid #000000;
 }
 h4{
   margin: 0px;
