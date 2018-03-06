@@ -1,90 +1,90 @@
 body{
-  background-color: #800000;
-  font-family: Arial;
+  background-color: #800000; /* NOTE: Change body background color */
+  font-family: Arial; /* NOTE: 1. Changing the font-family to Arial */
 }
 *{
-  box-sizing: border-box;
+  box-sizing: border-box; /* NOTE: 2. Clearfix hack */
 }
 .container{
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #FFCCCC;
-  padding: 10px;
-  border: 10px double #FFFFFF;
-  overflow: auto;
+  max-width: 600px; /* NOTE: Max-width of the container */
+  margin: 0 auto; /* NOTE: Centering the container */
+  background-color: #FFCCCC; /* NOTE: Making a light background color for the container */
+  padding: 10px; /* NOTE: Spacing around the inner edge of the container */
+  border: 10px double #FFFFFF; /* NOTE: Adding a couble border to the container */
+  overflow: auto; /* NOTE: 3. Overflow hack */
 }
 img{
-  max-width: 100%;
-  border: 5px solid #FFFFFF;
-  width: 80%;
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
+  max-width: 100%; /* NOTE: Max-width of the image to not overfill the container */
+  border: 5px solid #FFFFFF; /* NOTE: 4. Adding an image border */
+  width: 80%; /* NOTE: 5. Telling the image to only take up 80% of the container */
+  display: block; /* NOTE: 6. Turning image into block display so it can be centered */
+  margin: auto; /* NOTE: 7. Centering the image */
+  margin-bottom: 10px; /* NOTE: 8. Creating space under the image */
 }
-@media(min-width: 650px) {
+@media(min-width: 650px) { /* NOTE: Responsive web page */
   .articles{
-    width: 50%;
-    float: left;
-    padding-right: 5px;
+    width: 50%; /* NOTE: Making the article section take up 50% of the page */
+    float: left; /* NOTE: So the two sections can go side-by-side */
+    padding-right: 5px; /* NOTE: Adding space between them */
   }
   .books{
-    width: 50%;
-    float: left;
-    padding-left: 5px;
+    width: 50%; /* NOTE: Making the book section take up 50% of the page */
+    float: left; /* NOTE: So the two sections can go side-by-side */
+    padding-left: 5px; /* NOTE: Space between the two lists */
   }
-  .content{
-    width: 80%;
-    margin: auto;
+  .content{   /* NOTE: 9. Added a new div of "content" to control the width easily */
+    width: 80%; /* NOTE: 10. "Content" to only take up 80% of container, slim */
+    margin: auto; /* NOTE: 11. Centering "content" */
   }
 }
 h1{
-  margin-top: 0px;
-  border-bottom: 1px solid #000000;
-  font-size: 30px;
-  text-align: center;
+  margin-top: 0px; /* NOTE: 12. Getting rid of space above h1 */
+  border-bottom: 1px solid #000000; /* NOTE: 13. Adding a border under h1 */
+  font-size: 30px; /* NOTE: 14. Changing font size to be bigger */
+  text-align: center; /* NOTE: 15. Centering the h1 text */
 }
 h2{
-  margin-top: 0px;
-  border-bottom: 1px solid #000000;
-  font-size: 20px;
-  text-align: center;
+  margin-top: 0px; /* NOTE:16. Getting rid of space above h2 */
+  border-bottom: 1px solid #000000; /* NOTE: 17. Adding border under h2 */
+  font-size: 20px; /* NOTE: 18. Making font size slightly smaller */
+  text-align: center; /* NOTE: 19. Centering the text */
 }
 h4{
-  margin: 0px;
-  font-weight: lighter;
+  margin: 0px; /* NOTE: 20. Getting rid of margin around h4, so it can touch the list */
+  font-weight: lighter; /* NOTE: 21. Getting rid of boldness  */
 }
 .byline{
-  margin-top: 10px;
-  margin-bottom: 0px;
-  display: inline;
+  margin-top: 10px; /* NOTE: 22. Adjusting top margin*/
+  margin-bottom: 0px; /* NOTE: 23. Adjusting bottom margin */
+  display: inline; /* NOTE: 24. Changing disply type, so byline and pubtime can be next to eachother */
 }
 .publish-time{
-  margin-top: 10px;
-  display: inline;
-  border-left: 1px solid #000000;
-  padding-left: 5px;
+  margin-top: 10px; /* NOTE: 25. Changing top margin */
+  display: inline; /* NOTE: 26. Changing disply type, so byline and pubtime can be next to eachother  */
+  border-left: 1px solid #000000; /* NOTE: 27. Adding a separator between byline and pubtime */
+  padding-left: 5px; /* NOTE: 28. Adding space between text and the separator */
 }
 .byline-bit{
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000000; /* NOTE: 29. Made a new div, added a border to new byline-bit section */
 }
 .byline-bit p{
-  text-transform: uppercase;
-  font-size: 10px;
+  text-transform: uppercase; /* NOTE: 30. Making byline bit text uppercase */
+  font-size: 10px; /* NOTE: 31. Making byline bit text smaller */
 }
 .story-text{
-  font-family: serif;
+  font-family: serif; /* NOTE: 32. Changing story-text to a serif font */
 }
 ol{
-  list-style-position: inside;
-  margin-top: 0px;
+  list-style-position: inside; /* NOTE: 33. Changing the bullets to be inside the ol */
+  margin-top: 0px; /* NOTE: 34. Getting rid of top margin-top */
 }
 ul{
-  list-style-type: none;
-  margin-top: 0px;
+  list-style-type: none; /* NOTE: 35. Getting rid of the bullets on Popular Books */
+  margin-top: 0px; /* NOTE: 36. Getting rid of top margin */
 }
 ul li{
-  font-style: italic;
+  font-style: italic; /* NOTE: 37. Making the <li> in the book list italic */
 }
 a{
-  color: #0099cc;
+  color: #0099cc; /* NOTE: 38. Changing the color of all the links */
 }
