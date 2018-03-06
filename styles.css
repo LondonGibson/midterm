@@ -78,6 +78,9 @@ ul{
   list-style-type: none;
   margin-top: 0px;
 }
+ul li{
+  font-style: italic;
+}
 a{
   color: #0099cc;
 }
