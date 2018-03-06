@@ -47,6 +47,7 @@ h4{
 }
 .publish-time{
   margin-top: 0px;
+  display: inline;
 }
 .story-text{
   font-family: serif;
